@@ -22,6 +22,10 @@ PRODUCT_PRODUCT_PROPERTIES += ro.opa.eligible_device=true
 # EUICC
 PRODUCT_PACKAGES += \
     EuiccSupportPixelOverlay
+    
+# HbmSVManager
+PRODUCT_COPY_FILES += \
+    device/google/gs101/conf/disable_hbmsv.sh:$(TARGET_COPY_OUT_SYSTEM)/bin/disable_hbmsv.sh
 
 # Linker config
 PRODUCT_VENDOR_LINKER_CONFIG_FRAGMENTS += \
