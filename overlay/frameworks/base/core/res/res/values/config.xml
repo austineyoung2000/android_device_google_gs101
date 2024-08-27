@@ -326,6 +326,8 @@
     -->
     <bool name="config_wifiDisplaySupportsProtectedBuffers">false</bool>
     
+    <string name="config_gnssPsdsType">broadcom</string>
+    
      <!-- The properties of a UDFPS sensor in pixels -->
     <integer-array name="config_udfps_sensor_props">
       <item>720</item>  <!-- sensorLocationX -->
