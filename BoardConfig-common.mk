@@ -296,9 +296,14 @@ BOARD_USES_CURL := true
 # Sensor HAL
 BOARD_USES_EXYNOS_SENSORS_DUMMY := true
 
+# Adaptive charging
+PRODUCT_COPY_FILES += \
+    device/google/gs101/conf/adaptivecharging.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/sysconfig/adaptivecharging.xml
+
 # VISION
 # Exynos vision framework (EVF)
 #TARGET_USES_EVF := true
+
 # HW acceleration
 #TARGET_USES_VPU_KERNEL := true
 #TARGET_USES_SCORE_KERNEL := true
