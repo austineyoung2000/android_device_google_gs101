@@ -331,9 +331,4 @@
     <bool name="config_GoogleCamera_needs_seinfo_for_access_to_accelerators">true</bool>
     <bool name="config_Google_apps_can_have_special_access_to_accelerators">true</bool>
     
-     <!-- The properties of a UDFPS sensor in pixels -->
-    <integer-array name="config_udfps_sensor_props">
-      <item>720</item>  <!-- sensorLocationX -->
-      <item>2364</item> <!-- sensorLocationY -->
-      <item>142</item>  <!-- sensorRadius -->
   </resources>
